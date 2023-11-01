@@ -62,3 +62,65 @@
 去除所有顾客ID等私有化过多的参数
 收集产品名，用户打分和用户评价
 利用用户评价提取关键词，以文词分割到词汇最大部分，同时以用户点赞评论作为额外权重，降低未购买的评价权重和使用时间过短的
+
+参考O论文：
+2002116
+
+摘要：
+花里胡哨的摘要（乐）
+1段：紧扣材料重述问题
+2段：概述问题1的解决思路
+3段：概述问题2的解决思路，先提出了建模分析之后的结论
+4段：说写了一封信给Sunshine公司
+5段：夸一下自己的模型
+We have winessed the rise of mass online marketplaces. For example Amazon, one of the
+biggest online platforms, is worth around $ 915 billion. Guided by the customer obsession
+principle, it provides an opportunity for the customers to rate the products from 1 to 5. More
+over, buyers can submit a text-based message, namely review, to express their feeling towards
+the products. The massive data of those ratings and reviews offer a wealth of information re
+mained to be mined. Analysis of text-based messages or rating-based values has received wide
+attention, vet there is not a method severs as the combination of both, especially for the case of
+an online marketplace.
+
+我们目睹了大规模在线市场的兴起。例如，最大的在线平台之一亚马逊的市值约为 9150
+亿美元。在顾客痴迷原则的指导下，它为顾客提供了一个从 1到 5 给产品打分的机会。此外
+买家可以提交基于文本的信息，即评论，来表达他们对产品的感受。这些评分和评论的海量
+数据提供了大量有待挖掘的信息。基于文本的信息分析或基于评级的价值分析受到了广泛关
+注，但目前还没有一种方法可以将两者结合起来，尤其是对于在线市场而言。
+CE-VADER 混台模型（文本情感分析模型）
+以评价，选取最具价值的1%评论
+
+用AR做时间序列预测
+DTW相似性评估了一下模型的效果（鲁棒性）
+带目录的？带页眉的？右上角页码的？
+
+带介绍的？
+
+词云【词云】---wordcloud包
+
+优势：
+新鲜，准确，泛化，鲁棒
+
+
+
+2007707
+
+挂出建模框架总图
+
+假设中加入justification，作为理由
+
+数据清洗
+
+TF-IDF算法抽取关键词
+词形还原（Lemmatization）
+第一种是查找情感字典，一般这些字典里面都已经预定好了情感词的参数，判定的时候只需要根据计算方法把这些指标综合即可
+第二种是深度学习，将关键词转为数学向量，搭建并训练神经网络
+
+
+
+
+
+NLTK，全称为Natural Language Toolkit，是一个自然语言处理工具包，是NLP研究领域常用的一个Python库，由宾夕法尼亚大学的Steven Bird和Edward Loper在Python的基础上开发的一个模块，至今已有超过十万行的代码。NLTK一个开源项目，其中包含数据集、Python模块、教程等；NLTK的功能主要有：分类、分词、标签、提取、解析、语义推理等
+
+
+
